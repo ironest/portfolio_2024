@@ -1,0 +1,99 @@
+@import "variables";
+
+.section {
+  background: linear-gradient(rgb(245, 245, 245), rgba(0, 0, 0, 0.05));
+  min-height: 100vh;
+  width: 100%;
+
+  .container {
+    width: 1050px;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 80px 0;
+
+    .board {
+      overflow: hidden;
+
+      &.small {
+        width: 300px;
+        img {
+          width: 260px;
+        }
+      }
+
+      &.medium {
+        width: 500px;
+        img {
+          width: 460px;
+        }
+      }
+      &.big {
+        width: 800px;
+        img {
+          width: 760px;
+        }
+      }
+
+      &.round {
+        border-radius: 20px;
+      }
+
+      @media screen and (max-width: 768px) {
+        &.medium,
+        &.big {
+          width: 500px;
+          img {
+            width: 460px;
+          }
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        &.small,
+        &.medium,
+        &.big {
+          width: 300px;
+          img {
+            width: 260px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.shadow {
+  // box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 45px 0 $color-shadow;
+}
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.m20 {
+  margin: 20px;
+}
+
+.m40 {
+  margin: 40px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.p40 {
+  padding: 40px;
+}

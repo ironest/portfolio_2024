@@ -1,0 +1,99 @@
+@import "variables";
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $color-dirty-white;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  #work,
+  #intro {
+    width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: $color-dark-emerald;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: $color-dirty-black;
+  }
+
+  p,
+  h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-dirty-gray;
+    line-height: 27px;
+  }
+
+  .center-txt {
+    text-align: center;
+  }
+
+  .footer {
+    min-height: 100px;
+    width: 100%;
+    background-color: $color-dirty-gray;
+    text-align: center;
+
+    .copyright {
+      color: $color-dirty-white;
+    }
+  }
+}
+
+.a {
+  width: 92px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: $color-dirty-white;
+}
+
+.b {
+  width: 92px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: $color-shadow;
+}
+
+.c {
+  width: 92px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: $color-dirty-black;
+  border-radius: 0 10px 10px 0;
+}
+
+.d {
+  width: 92px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: $color-dark-emerald;
+  border-radius: 10px 0 0 10px;
+}
+
+.e {
+  width: 92px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: $color-light-emerald;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  margin: 0 5px;
+  vertical-align: middle;
+}
