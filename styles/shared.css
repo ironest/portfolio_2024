@@ -50,6 +50,22 @@
     width: 260px;
   }
 }
+.section .container .board .pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-right: 50px;
+}
+.section .container .board .pill-list li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgb(245, 245, 245);
+  display: inline-block;
+  background-color: rgb(0, 186, 200);
+  padding: 8px 12px;
+  border-radius: 16px;
+}
 .section::after {
   content: "";
   position: absolute;

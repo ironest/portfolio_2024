@@ -48,11 +48,22 @@ body .board-location {
   line-height: 27px;
   color: rgb(135, 135, 135);
 }
-body .board-description {
+body p.board-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: rgb(135, 135, 135);
+}
+body ul.board-description {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+body ul.board-description li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(135, 135, 135);
+  padding-left: 5px;
 }
 body .center-txt {
   text-align: center;

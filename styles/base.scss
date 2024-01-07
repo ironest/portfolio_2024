@@ -56,11 +56,23 @@ body {
     color: $color-dirty-gray;
   }
 
-  .board-description {
+  p.board-description {
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     color: $color-dirty-gray;
+  }
+
+  ul.board-description {
+    list-style-type: disc;
+    margin-left: 30px;
+    li {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      color: $color-dirty-gray;
+      padding-left: 5px;
+    }
   }
 
   .center-txt {
