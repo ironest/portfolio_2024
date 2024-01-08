@@ -13,6 +13,16 @@ body {
   align-items: center;
   height: 100%;
 
+  a {
+    text-decoration: none;
+    color: $color-dark-emerald;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color-light-emerald;
+    }
+  }
+
   #work,
   #intro,
   #contact {
@@ -57,7 +67,7 @@ body {
   }
 
   p.board-description {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 27px;
     color: $color-dirty-gray;
@@ -67,7 +77,7 @@ body {
     list-style-type: disc;
     margin-left: 30px;
     li {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 400;
       line-height: 27px;
       color: $color-dirty-gray;

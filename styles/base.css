@@ -11,6 +11,14 @@ body {
   align-items: center;
   height: 100%;
 }
+body a {
+  text-decoration: none;
+  color: rgb(0, 116, 124);
+}
+body a:hover {
+  text-decoration: underline;
+  color: rgb(0, 186, 200);
+}
 body #work,
 body #intro,
 body #contact {
@@ -49,7 +57,7 @@ body .board-location {
   color: rgb(135, 135, 135);
 }
 body p.board-description {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   color: rgb(135, 135, 135);
@@ -59,7 +67,7 @@ body ul.board-description {
   margin-left: 30px;
 }
 body ul.board-description li {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   color: rgb(135, 135, 135);
