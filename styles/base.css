@@ -77,13 +77,37 @@ body .center-txt {
   text-align: center;
 }
 body .footer {
-  min-height: 100px;
+  padding: 30px 0;
   width: 100%;
-  background-color: rgb(135, 135, 135);
-  text-align: center;
+  background-color: rgb(31, 31, 33);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 body .footer .copyright {
+  font-size: 14px;
   color: rgb(245, 245, 245);
+  margin: 0 30px;
+  line-height: 20px;
+  text-align: center;
+}
+body .footer .socials {
+  display: flex;
+  gap: 16px;
+}
+body .footer .socials a {
+  border-radius: 6px;
+  background-color: rgba(0, 186, 200, 0.1);
+  padding: 12px;
+  display: flex;
+}
+body .footer .socials a:hover {
+  background-color: rgb(0, 116, 124);
+}
+body .footer .socials a img {
+  width: 20px;
+  aspect-ratio: 1;
+  filter: invert(100%) sepia(98%) saturate(6%) hue-rotate(278deg) brightness(109%) contrast(92%);
 }
 
 .a {
